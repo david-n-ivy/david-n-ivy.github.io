@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "La Ropa Vieja (Old Clothes)"
-date:   2019-01-27 05:35:03 -0600
+date:   2019-01-26 05:35:03 -0600
 categories: jekyll update
 ---
 
