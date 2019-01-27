@@ -26,16 +26,17 @@ In either case, dense fat near the skin should be trimmed as it doesn't tend to 
 - 2 spoons of oil
 - 1 can of pimentos (mildly spiced preserved pepper)
 
-#### Seasoning
-- 2 tablespoon paprika
-- 2 cloves garlic
-- 2 tablespoon salt
-- 2 tablespoon black pepper, coarsely ground
+#### Dry Rub Seasoning
+- 1 tablespoon paprika
+- 2 cloves garlic, minced
+- 1 tablespoon salt
+- 1 tablespoon black pepper, coarsely ground
 - 1 tablespoon chilli powder
 - touch/pinch of oregano
 - touch/pinch of ground cumin
 
 #### Sauce
+- 4 cloves of garlic, minced
 - 1/4 cup red wine
 - 1 can of diced tomato
 - 1/2 small can of tomato paste
