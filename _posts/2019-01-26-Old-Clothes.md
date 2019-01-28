@@ -66,5 +66,6 @@ My favorite part!  Here are a few suggestions:
 - In a burrito, with beans, rice and mozzarella cheese
 - Toasted sandwich, with liberal amounts of gouda cheese
 
-{% include comments.html %}
+<!-- Still working on this part -->
+<!-- {% include comments.html %} -->
 
