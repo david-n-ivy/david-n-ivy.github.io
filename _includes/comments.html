@@ -1,0 +1,15 @@
+<h2> Comments! </h2>
+<p> {{ page.id }} </p>
+
+<div>
+    {% for comment in site.data.comments %}
+        {% assign commentData = comment[1] %}
+        {% if commentData.post == page.id %}
+            <div>
+                <p>
+                    <span style="color:blue"> {{ commentData.name }} </span> {{ commentData.comment }}
+                </p>
+            </div>
+        {% endif %}
+    {% endfor %}
+</div>

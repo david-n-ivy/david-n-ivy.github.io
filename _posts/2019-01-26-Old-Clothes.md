@@ -5,7 +5,7 @@ date:   2019-01-26 05:35:03 -0600
 categories: jekyll update
 ---
 
-### About
+## About
 One of the national dishes of Cuba, old clothes is a slow cooked beef flank in tomato sauce with spices.
 We (Ivy) cooks ours for several hours in an electric slow cooker, which causes the connective tissue to break down and
 turn into a rich and delicious sauce with diverse and tasty applications.
@@ -16,9 +16,9 @@ If you do substitute with a brisket, liberally trim excess fat, as the cut tends
 
 In either case, dense fat near the skin should be trimmed as it doesn't tend to cook out as well.
 
-### Ingredients
+## Ingredients
 
-#### Meat & Produce
+### Meat & Produce
 - 2kg beef flank
 - 2 green peppers
 - 1 onion
@@ -26,7 +26,7 @@ In either case, dense fat near the skin should be trimmed as it doesn't tend to 
 - 2 spoons of oil
 - 1 can of pimentos (mildly spiced preserved pepper)
 
-#### Dry Rub Seasoning
+### Dry Rub Seasoning
 - 1 tablespoon paprika
 - 2 cloves garlic, minced
 - 1 tablespoon salt
@@ -35,7 +35,7 @@ In either case, dense fat near the skin should be trimmed as it doesn't tend to 
 - touch/pinch of oregano
 - touch/pinch of ground cumin
 
-#### Sauce
+### Sauce
 - 4 cloves of garlic, minced
 - 1/4 cup red wine
 - 1 can of diced tomato
@@ -46,7 +46,7 @@ In either case, dense fat near the skin should be trimmed as it doesn't tend to 
 - 4 bay leaves
 - salt and pepper to taste.
 
-### Instructions
+## Instructions
 
 1. Trim excess fat from the meat
 2. Coat the beef with the items listed under seasoning
@@ -59,9 +59,13 @@ In either case, dense fat near the skin should be trimmed as it doesn't tend to 
 9. Remove meat, shred the meat and re-add to slow cooker for 30 minutes
 10. finish with pimentos
 
-### To-serve:
+## To-serve:
 
 My favorite part!  Here are a few suggestions:
 - Neat, with rice and vegetables of your choice (Yellow rice is always good)
 - In a burrito, with beans, rice and mozzarella cheese
 - Toasted sandwich, with liberal amounts of gouda cheese
+
+<!-- Still working on this part -->
+<!-- {% include comments.html %} -->
+
