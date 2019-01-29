@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "No Knead Bread"
-date:   2019-01-26 05:35:03 -0600
+date:   2019-01-29 00:00:00 -0600
 categories: jekyll update
 ---
 
