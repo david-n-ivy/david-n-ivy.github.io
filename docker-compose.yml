@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+    site:
+        image: jekyll/jekyll
+        volumes:
+            - type: bind
+              source: $PWD
+              target: /srv/jekyll
+            - type: bind
+              source: $PWD/vendor/bundle
+              target: /usr/local/bundle
+        command: ["jekyll", "serve", "watch"]
+        ports:
+            - "4000:4000"
