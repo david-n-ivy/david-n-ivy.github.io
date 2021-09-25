@@ -1,0 +1,6 @@
+# Ignore everything except this file.  This means that
+# docker-compsoe can populate the required bind mount as the directory
+# is part of the repository.
+
+!.gitignore
+bin
