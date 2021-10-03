@@ -1,0 +1,38 @@
+
+ .hero-image {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 0.2em;
+    aspect-ratio: 3 / 2;
+   }
+
+.located-at-infinity {
+  position: absolute;
+  left: -9999999px;
+  top: -9999999px;
+}
+
+.hero-image figcaption {
+    margin-top: 1em;
+    line-height: 1.5em;
+    font-size: 0.8em;
+    /* 6 = 4x1.5 (4 lines of text only) */
+    height: 6em;
+    overflow: hidden;
+  }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding: 1vw;
+  }
+
+.grid-cell {
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+}
+
+.pin-aspect-ratio-3-2 {
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+}
