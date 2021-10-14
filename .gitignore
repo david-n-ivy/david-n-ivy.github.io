@@ -1,3 +1,7 @@
 *~
 .sass-cache
 _site/*
+
+# local scratch space for images
+./scripts/images/*
+!./scripts/images/README.md
