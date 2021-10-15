@@ -1,0 +1,48 @@
+
+ .hero-image {
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 0.2em;
+   }
+
+.located-at-infinity {
+  position: absolute;
+  left: -9999999px;
+  top: -9999999px;
+}
+
+.hero-image figcaption {
+    margin-top: 1em;
+    line-height: 1.5em;
+    font-size: 0.8em;
+    /* 4.5 = 3x1.5 (3 lines of text only) */
+    height: 4.5em;
+    overflow: hidden;
+  }
+
+.figure-caption {
+  padding: 0 5px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.spacer {
+  margin: 3px 0px 20px 0px;
+  opacity: 0.25;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 5px;
+    padding: 1vw;
+  }
+
+.grid-cell {
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+}
+
+.pin-aspect-ratio-4-3 {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
+}

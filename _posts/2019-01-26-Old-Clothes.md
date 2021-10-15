@@ -5,7 +5,6 @@ date:   2019-01-26 05:35:03 -0600
 categories: jekyll update
 ---
 
-## About
 One of the national dishes of Cuba, old clothes is a slow cooked beef flank in tomato sauce with spices.
 We (Ivy) cooks ours for several hours in an electric slow cooker, which causes the connective tissue to break down and
 turn into a rich and delicious sauce with diverse and tasty applications.
@@ -65,7 +64,3 @@ My favorite part!  Here are a few suggestions:
 - Neat, with rice and vegetables of your choice (Yellow rice is always good)
 - In a burrito, with beans, rice and mozzarella cheese
 - Toasted sandwich, with liberal amounts of gouda cheese
-
-<!-- Still working on this part -->
-<!-- {% include comments.html %} -->
-

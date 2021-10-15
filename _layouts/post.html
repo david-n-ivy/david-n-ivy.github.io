@@ -1,0 +1,60 @@
+---
+layout: default
+---
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/post.css" />
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+      {%- if page.author -%}
+      • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card"
+          itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}
+    </p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    {% if page.images.size > 0 %}
+    <div class="hero-image">
+      <figure>
+        <div class="pin-aspect-ratio-4-3">
+          <image id="hero-image" src={{page.images.first.src}} />
+        </div>
+        <figcaption class="figure-caption" id="hero-caption"> {{page.images.first.caption}} </figcaption>
+      </figure>
+    </div>
+    {% if page.images.size > 1 %}
+    <div class="grid-container">
+      {% for image in page.images %}
+      <div class="grid-cell">
+        <!-- dirty hack to preload the images. NB: link with prefetch did not work. -->
+        <img src={{image.src}} class="located-at-infinity"/>
+        <!-- Note the use of backticks for quoting to avoid collisions in the caption content -->
+        <image src={{image.thumbnail}}
+          onClick="setHeroImage({ image: `{{image.src}}`, caption: `{{image.caption | escape}}` })" />
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% endif %}
+    <hr class="spacer" />
+    {{ content }}
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+
+  <script>
+    function setHeroImage({ image, caption }) {
+      const imageRef = document.getElementById("hero-image")
+      imageRef.src = image
+
+      const captionRef = document.getElementById("hero-caption")
+      captionRef.innerText = caption
+    }
+  </script>
+</article>
