@@ -1,0 +1,4 @@
+
+imgz-cli
+pillow
+PyYAML

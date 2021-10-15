@@ -22,10 +22,10 @@ layout: default
     {% if page.images.size > 0 %}
     <div class="hero-image">
       <figure>
-        <div class="pin-aspect-ratio-3-2">
+        <div class="pin-aspect-ratio-4-3">
           <image id="hero-image" src={{page.images.first.src}} />
         </div>
-        <figcaption id="hero-caption"> {{page.images.first.caption}} </figcaption>
+        <figcaption class="figure-caption" id="hero-caption"> {{page.images.first.caption}} </figcaption>
       </figure>
     </div>
     {% if page.images.size > 1 %}
@@ -42,7 +42,7 @@ layout: default
     </div>
     {% endif %}
     {% endif %}
-
+    <hr class="spacer" />
     {{ content }}
   </div>
 

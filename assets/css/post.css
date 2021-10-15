@@ -2,7 +2,6 @@
  .hero-image {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     padding: 0.2em;
-    aspect-ratio: 3 / 2;
    }
 
 .located-at-infinity {
@@ -15,10 +14,21 @@
     margin-top: 1em;
     line-height: 1.5em;
     font-size: 0.8em;
-    /* 6 = 4x1.5 (4 lines of text only) */
-    height: 6em;
+    /* 4.5 = 3x1.5 (3 lines of text only) */
+    height: 4.5em;
     overflow: hidden;
   }
+
+.figure-caption {
+  padding: 0 5px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.spacer {
+  margin: 3px 0px 20px 0px;
+  opacity: 0.25;
+}
 
 .grid-container {
     display: grid;
@@ -32,7 +42,7 @@
     overflow: hidden;
 }
 
-.pin-aspect-ratio-3-2 {
-    aspect-ratio: 3 / 2;
+.pin-aspect-ratio-4-3 {
+    aspect-ratio: 4 / 3;
     overflow: hidden;
 }
