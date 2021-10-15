@@ -3,5 +3,6 @@
 _site/*
 
 # local scratch space for images
-./scripts/images/*
-!./scripts/images/README.md
+scripts/images/*
+!scripts/images/README.md
+.python-version
