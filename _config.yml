@@ -16,7 +16,7 @@
 title: David & Ivy's Recipe Book
 email: we-decide-later@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  We wanted to write down our favourite recipes.  But we'd probably lose it, 
+  We wanted to write down our favorite recipes.  But we'd probably lose it,
   so decided to do it online
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -32,11 +32,13 @@ plugins:
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - docs
+  - scripts
