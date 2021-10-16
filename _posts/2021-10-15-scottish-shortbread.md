@@ -5,7 +5,7 @@ date:   2021-10-15 05:35:03 -0600
 categories: jekyll update
 images:
 - caption: >
-    Ingredients and a messy benchtop.
+    Ingredients and a messy bench-top.
   src: https://imgz.org/i3paXa2j.jpg
   thumbnail: https://imgz.org/i5Vw4jhA.jpg
 - caption: >
