@@ -21,7 +21,7 @@ cream over milk.
 
 - 500g roasted sweet potato
 - 125g Butter
-- 120mL Cream
+- 120mL Thickened Cream
 - 2 Eggs
 - 1/2 teaspoon cinnamon
 - 1/2 teaspoon nutmeg
