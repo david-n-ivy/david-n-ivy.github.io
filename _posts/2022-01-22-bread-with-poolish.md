@@ -35,7 +35,7 @@ is 50% the story of a successful bakery and 50% how to make bread better.
 - 800g Bread Flour
 - 200g Whole Grain Flour
 - 500g Water
-- 1g dried yeast
+- 6g dried yeast
 - 42g Salt
 
 
